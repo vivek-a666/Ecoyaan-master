@@ -1,0 +1,19 @@
+.slider-container {
+    max-width: 2000px; /* Adjust the maximum width of the slider container */
+    margin: 0 auto; /* Center the slider horizontally */
+  }
+  
+  /* Adjust slider width for smaller screens */
+  @media screen and (max-width: 968px) {
+    .slider-container {
+      max-width: 80%; /* Example width for smaller screens */
+    }
+  }
+  
+  /* Adjust slider width for even smaller screens */
+  @media screen and (max-width: 980px) {
+    .slider-container {
+      max-width: 100%; /* Example width for even smaller screens */
+    }
+  }
+  
